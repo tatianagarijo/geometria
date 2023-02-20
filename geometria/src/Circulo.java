@@ -7,6 +7,7 @@ public class Circulo_TGA extends FiguraGeometrica_TGA {
 	public Circulo_TGA(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (radio<0) radio=radio*-1;
 	}
 
 	@Override
